@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": "myicons.png"
+   },
+   "description": "Test Tab Open and Update",
+    "externally_connectable": {
+      "matches": [ "http://localhost:3000/" ]
+   },
+  
+   "homepage_url": "https://github.com/sweeneyapps/",
+  
+   "manifest_version": 2,
+   "name": "Test Tabs Open/Update",
+  
+  
+   "permissions": [ "tabs" ],
+   "version": "1.0"
+}
